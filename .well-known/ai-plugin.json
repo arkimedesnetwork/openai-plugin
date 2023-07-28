@@ -1,0 +1,32 @@
+{
+    "schema_version": "v1",
+    "name_for_model": "Arkimedes",
+    "name_for_human": "Arkimedes",
+    "description_for_model": "Plugin for finding and recruiting talented people, matching candidates with job posts, performing background checks, verifying employment records, verifying academic records, and discovering the most recent job trends. All markdown links are relative to https://arkimedes.network/.",
+    "description_for_human": "Get access to Arkimedes Network - Your Trustworthy Career Platform for the next Gen Internet",
+    "auth": {
+        "type": "oauth",
+        "instructions": "",
+        "client_url": "https://api.arkimedes.network/oauth/authorize",
+        "scope": "default",
+        "authorization_url": "https://api.arkimedes.network/oauth/token",
+        "authorization_content_type": "application/x-www-form-urlencoded",
+        "verification_tokens": {
+          "openai": ""
+        }
+      },
+    "servers": [
+        {
+          "url": "https://arkimedes.network",
+          "description": "PROD"
+        }
+    ],
+    "api": {
+      "type": "openapi",
+      "url": "https://api.arkimedes.network/.well-known/openapi.yaml",
+      "has_user_authentication": true
+    },
+    "logo_url": "https://arkimedes.network/.well-known/arkimedes-logo.png",
+    "contact_email": "openai@arkimedes.network", 
+    "legal_info_url": "https://arkimedes.network/terms"
+  }
